@@ -1,0 +1,169 @@
+/*Global styles*/
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px; /*to make the sizing easier*/
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+p{
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+img{ /*prevent overflow*/
+    width: 100%;
+    max-width: 55rem;
+    height: auto;
+    padding-top: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    padding: 5rem 0;
+}
+
+body{
+    background-color: plum;
+}
+
+header{
+    width: 100%;
+    height: 8rem;
+}
+
+.container{
+    width: 100%;
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(80,46,161, 0.5);
+}
+
+.nav-brand{
+    width: 7rem;
+}
+
+/*.menu-icons i{
+    font-size: 3.5rem;
+    columns: #fff;
+    cursor: pointer; 
+}
+
+.close i{
+    color: orchid;
+}
+
+.nav-list{
+    width: 25rem;
+    height: 100vh;
+    background-color: rgb(221, 219, 223);
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+    transition: all 650ms ease-in-out;
+}*/
+
+.close{
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+.nav-item{
+    margin: 1.5rem 0;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.hero{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)100%);
+}
+
+.main-message{
+    width: 100%;
+}
+
+.main-message h1{
+    font-size: 4rem;
+    font-family: 'Aldrich', sans-serif;
+    margin: 1 rem 0;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.main-message h2{
+    font-size: 3rem;
+    font-family: 'Aldrich', sans-serif;
+    margin: 1 rem 0;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.main-message h3{
+    font-size: 2.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1 rem 0;
+    padding-top: 0.5rem;
+}
+
+.main-message h4{
+    font-size: 1.9rem;
+    font-family: 'Aldrich', sans-serif;
+    margin: 1 rem 0;
+    padding-top: 0.5rem;
+}
+
+.btn{
+    font-size: 1.5rem;
+    background-color: slateblue;
+    border-radius: 2rem;
+    color: #fafafa;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    transition: background-color 650ms;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgba(80,46,161, 0.5);
+}
